@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4F44B623C6307E009DB8B4 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F44B523C6307E009DB8B4 /* SecretKey.swift */; };
 		0C53712923C53582009F3391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53712823C53582009F3391 /* AppDelegate.swift */; };
 		0C53712B23C53582009F3391 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C53712A23C53582009F3391 /* art.scnassets */; };
 		0C53712D23C53582009F3391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53712C23C53582009F3391 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C4F44B523C6307E009DB8B4 /* SecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
 		0C53712523C53582009F3391 /* AR-Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C53712823C53582009F3391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C53712A23C53582009F3391 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -37,9 +39,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4F44B423C6302C009DB8B4 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				0C4F44B523C6307E009DB8B4 /* SecretKey.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
 		0C53711C23C53582009F3391 = {
 			isa = PBXGroup;
 			children = (
+				0C4F44B423C6302C009DB8B4 /* Secrets */,
 				0C53712723C53582009F3391 /* AR-Tester */,
 				0C53712623C53582009F3391 /* Products */,
 			);
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C53712D23C53582009F3391 /* ViewController.swift in Sources */,
+				0C4F44B623C6307E009DB8B4 /* SecretKey.swift in Sources */,
 				0C53712923C53582009F3391 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
